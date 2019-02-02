@@ -3,9 +3,15 @@
 using namespace std;
 
 
+void PrintHello();
 
 int main()
 {
-	cout << "hello world";
+	PrintHello();
 	return 0;
+}
+
+void PrintHello()
+{
+	cout << "hello world";
 }
